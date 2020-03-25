@@ -7,12 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://raw.githubusercontent.com/MaginnGroup/Cassandra/master/releases/Cassandra_V{{ version }}.tar.gz
+  url: https://raw.githubusercontent.com/rsdefever/Cassandra/v{{ version }}/releases/Cassandra_V{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
-  number: 1
-  skip: true  # [win]
+  number: 2
   skip: true  # [py3k]
 
 requirements:
