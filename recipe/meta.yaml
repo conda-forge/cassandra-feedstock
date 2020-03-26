@@ -13,11 +13,6 @@ source:
 build:
   number: 0
 
-provider:
-  linux: azure
-  osx: azure
-  win: azure
-
 requirements:
   build:
     - make
