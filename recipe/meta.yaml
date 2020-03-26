@@ -1,6 +1,6 @@
 {% set name = "cassandra" %}
 {% set version = "1.2.2" %}
-{% set sha256 = "c8687396d0d1318a818d13b5467807550191e4dd51f0e14fdc98e9ed83b13c00" %}
+{% set sha256 = "e99d35da3ec6ecbc026781aebb734f4a269a08bdce81ca9f61bc4d62275ce873" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 requirements:
