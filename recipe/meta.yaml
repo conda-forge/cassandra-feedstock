@@ -42,7 +42,7 @@ about:
   home: https://github.com/MaginnGroup/Cassandra
   license: GPL-3.0
   license_family: GPL3
-  license_file: license.txt
+  license_file: LICENSE
   summary: 'Open source atomistic Monte Carlo software package'
   description: |
     Cassandra is an atomistic Monte Carlo software package developed by
