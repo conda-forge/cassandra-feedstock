@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 3
   skip: true  # [py3k]
 
 requirements:
@@ -29,6 +29,8 @@ requirements:
 test:
   commands:
     - cassandra.exe -h
+    - mcfgen.py -h
+    - library_setup.py -h
 
 about:
   home: https://github.com/MaginnGroup/Cassandra
