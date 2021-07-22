@@ -208,5 +208,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@emarinri](https://github.com/emarinri/)
 * [@rsdefever](https://github.com/rsdefever/)
 
