@@ -1,6 +1,6 @@
 {% set name = "cassandra" %}
-{% set version = "1.2.5" %}
-{% set sha256 = "8cff9277560ebccd3ce78291ec8c2bddb8248174b5b804a6ba18cc67b45aede5" %}
+{% set version = "1.2.6" %}
+{% set sha256 = "a37d373c65fef42fe8b8b222f4bfd15a96c8673a70d07340aedb671030a33679" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 6
+  number: 0
   skip: true  # [win]
 
 requirements:
@@ -46,7 +46,7 @@ about:
     The core code is written in Fortran, but the package also includes a few
     Python scripts to help with simulation setup. Complete documentation,
     workshop materials, and a user forum can be found at cassandra.nd.edu.
-  doc_url: https://cassandra.nd.edu/
+  doc_url: https://cassandra-mc.readthedocs.io/en/latest/
   dev_url: https://github.com/MaginnGroup/Cassandra
 
 extra:
